@@ -1,7 +1,7 @@
 github.com/andybalholm/crlf v0.0.0-20171020200849-670099aa064f h1:NNJE6p4LchkmNfNskDUaSbrwxZzr7t2/lj2aS+q4oF0=
 github.com/andybalholm/crlf v0.0.0-20171020200849-670099aa064f/go.mod h1:k8feO4+kXDxro6ErPXBRTJ/ro2mf0SsFG8s7doP9kJE=
-github.com/long-schlong-gang/turing v0.0.0-20210614205042-b0275b78a152 h1:lokYGQ1ci3/3AJbt/UYdcgAlveZoPaRxzFc6/xkxerk=
-github.com/long-schlong-gang/turing v0.0.0-20210614205042-b0275b78a152/go.mod h1:hvPwl3LCuiKNepkzytSKYIjDzFphwAtHQp6RgVIOzeY=
+github.com/long-schlong-gang/turing v0.0.0-20210614213326-c479cd46da1d h1:4mzRuc3sffI7xIHk0r+0+xreaSP5//qWuvV67M8Z7Ww=
+github.com/long-schlong-gang/turing v0.0.0-20210614213326-c479cd46da1d/go.mod h1:w9WbXLGIMihAV4r36e79zNX9S3jWimY1U4w33NvCyz0=
 github.com/teris-io/cli v1.0.1 h1:J6jnVHC552uqx7zT+Ux0++tIvLmJQULqxVhCid2u/Gk=
 github.com/teris-io/cli v1.0.1/go.mod h1:V9nVD5aZ873RU/tQXLSXO8FieVPQhQvuNohsdsKXsGw=
 golang.org/x/text v0.3.6 h1:aRYxNxv6iGQlyVaZmk6ZgYEDa+Jg18DxebPSrd6bg1M=

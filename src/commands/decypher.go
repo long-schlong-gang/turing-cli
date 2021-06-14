@@ -47,9 +47,9 @@ var Decypher = cli.NewCommand("decypher", "Decypher a string passed in the conso
 		}
 
 		keyStr, keyExists := options["key"]
-		key := turing.ParseKey(keyStr)
+		key := cypher.ParseKey(keyStr)
 		if !keyExists {
-			key = turing.NilKey
+			key = cypher.NilKey
 		}
 
 		_, directInput := options["direct-input"]
@@ -75,7 +75,7 @@ var Decypher = cli.NewCommand("decypher", "Decypher a string passed in the conso
 			input = strings.TrimSuffix(input, "\n")
 		}
 
-		cyph, err := cypher.RegistryGetCypher(cyphName)
+		cyph, err := turing.RegistryGetCypher(cyphName)
 		if err != nil {
 			fmt.Println("Error: ", err)
 			return STATUS_ERR
